@@ -10,3 +10,8 @@ puts <<~contents
 よろしくお願い申し上げます！
 
 contents
+
+users = ["saitou","taira","yamada","hayashi", ]
+users.each do |user|
+  puts user
+end
